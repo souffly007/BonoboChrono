@@ -1,0 +1,28 @@
+# Gradle / build
+.gradle/
+build/
+.kotlin/
+.cxx/
+.externalNativeBuild/
+captures/
+
+# Android Studio / IntelliJ
+*.iml
+.idea/
+local.properties
+
+# Paquets générés
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Clés de signature : ne JAMAIS les versionner (à sauvegarder dans KeePassXC)
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+
+# Système
+.DS_Store
+Thumbs.db
